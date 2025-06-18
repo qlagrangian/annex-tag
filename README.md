@@ -66,6 +66,7 @@ npm install
 詳細は [📁 Office証明書発行手順](./docs/Office証明書発行.md) をご参照ください。
 
 #### Windows
+
 <details>
 <summary>Windowsの手順</summary>
 
@@ -92,7 +93,9 @@ npm install
 
    * `certutil -store root | findstr /C:"Office Add-in Dev"`
    * または MMC で「証明書 (コンピューター アカウント) > 信頼されたルート証明機関」を確認
+
 </details>
+
 
 #### macOS
 
