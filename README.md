@@ -120,7 +120,8 @@ npm install
    ```
 
    * または Keychain Access で “Office Addin Development Certificate” を探す
-</details>
+   </details>
+
 ### 3. DB 初期化（必要に応じて）
 
 ```bash
