@@ -1,5 +1,8 @@
 
 # annex-tag
+[![Build Status](https://img.shields.io/github/actions/workflow/status/qlagrangian/annex-tag/ci.yml)](https://github.com/qlagrangian/annex-tag/actions)
+
+![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=qlagrangian&repo=annex-tag)
 
 Word Office.js アドインで「別紙」タグを文書に挿入・管理し、紐づいた別紙をまとめて PDF に結合・出力する MVP 実装のリポジトリです。
 
@@ -60,7 +63,7 @@ npm install
 ### 2. 開発用証明書のインストール
 
 開発用 HTTPS 証明書は Office.js Add-in のサイドロード時に必須です。
-詳細は `docs/Office証明書発行.md` をご参照ください。
+詳細は [📁 Office証明書発行手順](./docs/Office証明書発行.md) をご参照ください。
 
 #### Windows
 
