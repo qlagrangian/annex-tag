@@ -93,6 +93,7 @@ npm install
    * `certutil -store root | findstr /C:"Office Add-in Dev"`
    * または MMC で「証明書 (コンピューター アカウント) > 信頼されたルート証明機関」を確認
 </details>
+
 #### macOS
 
 <details>
@@ -120,7 +121,8 @@ npm install
    ```
 
    * または Keychain Access で “Office Addin Development Certificate” を探す
-   </details>
+
+</details>
 
 ### 3. DB 初期化（必要に応じて）
 
