@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "noEmitOnError": true,
+
+    "sourceMap": true,
+    "target": "es5",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "rootDir": "src",               // ソースはすべて src 以下に限定
+    "outDir": "dist",               // ts→js の出力先
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  
+  },
+   "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "lib-amd",
+    "webpack.config.js",
+    "init-db.sql",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "ts-node": { 
+    "files": true 
+  },
+  
+}
