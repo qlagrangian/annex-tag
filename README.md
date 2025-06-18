@@ -65,8 +65,9 @@ npm install
 開発用 HTTPS 証明書は Office.js Add-in のサイドロード時に必須です。
 詳細は [📁 Office証明書発行手順](./docs/Office証明書発行.md) をご参照ください。
 
+#### Windows
 <details>
-<summary>#### Windows</summary>
+<summary>Windowsの手順</summary>
 
 1. **PowerShell を管理者として起動**
 2. **実行ポリシー設定（必要に応じて）**
@@ -94,6 +95,8 @@ npm install
 </details>
 #### macOS
 
+<details>
+<summary>MacOSの手順</summary>
 1. **Homebrew で Node.js を用意**
 
    ```bash
@@ -117,7 +120,7 @@ npm install
    ```
 
    * または Keychain Access で “Office Addin Development Certificate” を探す
-
+</details>
 ### 3. DB 初期化（必要に応じて）
 
 ```bash
